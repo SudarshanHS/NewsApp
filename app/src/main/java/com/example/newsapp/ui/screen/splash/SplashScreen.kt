@@ -27,7 +27,7 @@ fun SplashScreen(navController: NavController) {
 
     Box(modifier = Modifier.fillMaxSize()) {
         Text(
-            text = stringResource(id = R.string.proceed),
+            text = stringResource(id = R.string.app_name),
             color = Color(0xFF000080),
             fontWeight = FontWeight.Bold,
             fontSize = 24.sp,
